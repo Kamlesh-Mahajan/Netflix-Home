@@ -279,7 +279,7 @@ nav .arrow-down1 {
   border-right: 5px solid transparent;
   border-top: 5px solid #fff;
   top: -1px;
-  left: -130px;
+  right: -120px;
 }
 nav select {
   background: transparent;
@@ -364,4 +364,21 @@ nav select {
     width: 20%;
     top: -45px;
   }
+}
+
+.language-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.globe-icon {
+  position: absolute;
+  width: 11%;
+  left: 17%;
+  margin-right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: invert(1) brightness(2) contrast(100);
 }
